@@ -2,7 +2,7 @@
 
 "ACTIONS"
 
-"Disabling Score Update Notification"
+"Disabling Score Update Notification (Extra Game Verb)"
 
 <SYNTAX NOTIFY OFF OBJECT (FIND KLUDGEBIT) = V-NOTIFY-OFF>
 
@@ -11,7 +11,7 @@
     <SETG SCORE-UPDATE-NOTIFICATION-ON <>>
 >
 
-"Enabling Score Update Notification"
+"Enabling Score Update Notification (Extra Game Verb)"
 
 <SYNTAX NOTIFY ON OBJECT (FIND KLUDGEBIT) = V-NOTIFY-ON>
 <SYNTAX NOTIFY = V-NOTIFY-ON>
@@ -21,7 +21,7 @@
     <SETG SCORE-UPDATE-NOTIFICATION-ON T>
 >
 
-"On Demand Score Notification"
+"On Demand Score Notification (Extra Game Verb)"
 
 <SYNTAX SCORE = V-SCORE>
 
@@ -34,7 +34,7 @@
 
 "ACTIVITIES"
 
-"Score Update Notification"
+"Score Update Notification (Library Hook)"
 
 <GLOBAL PREV-SCORE 0>
 <GLOBAL SCORE-UPDATE-NOTIFICATION-ON T>

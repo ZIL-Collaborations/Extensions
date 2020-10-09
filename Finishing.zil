@@ -2,7 +2,7 @@
 
 "ACTIVITIES"
 
-"Finishing the Game"
+"Finishing the Game (Library Hook)"
 
 "This was created to avoid calling the ZILF library routine JIGS-UP from action
 routines. This is because doing so means that the final turn never completes,
