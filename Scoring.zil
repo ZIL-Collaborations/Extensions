@@ -11,6 +11,8 @@
     <SETG SCORE-UPDATE-NOTIFICATION-ON <>>
 >
 
+<SETG EXTRA-GAME-VERBS (!,EXTRA-GAME-VERBS NOTIFY-OFF)>
+
 "Enabling Score Update Notification (Extra Game Verb)"
 
 <SYNTAX NOTIFY ON OBJECT (FIND KLUDGEBIT) = V-NOTIFY-ON>
@@ -21,6 +23,8 @@
     <SETG SCORE-UPDATE-NOTIFICATION-ON T>
 >
 
+<SETG EXTRA-GAME-VERBS (!,EXTRA-GAME-VERBS NOTIFY-ON)>
+
 "On Demand Score Notification (Extra Game Verb)"
 
 <SYNTAX SCORE = V-SCORE>
@@ -30,6 +34,8 @@
     <TELL "out of a possible " N ,MAX-SCORE ", ">
     <TELL "in " N ,MOVES " turns." CR>
 >
+
+<SETG EXTRA-GAME-VERBS (!,EXTRA-GAME-VERBS SCORE)>
 
 
 "ACTIVITIES"
